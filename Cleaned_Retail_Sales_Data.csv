@@ -1,0 +1,17 @@
+Transaction ID,Product ID,Product Name,Category,Quantity Sold,Unit Price,Total Sales,Customer ID,Location,City,State
+10001,P001,T-shirt,Apparel,2,15.99,31.98,C1234,"New York, NY",New York,NY
+10002,P002,Jeans,Apparel,1,45.99,45.99,C1235,"Los Angeles, CA",Los Angeles,CA
+10003,P003,Headphones,Electronics,1,89.99,89.99,C1236,"Chicago, IL",Chicago,IL
+10004,P004,Blender,Appliances,1,59.99,59.99,C1237,"Houston, TX",Houston,TX
+10005,P001,T-shirt,Apparel,3,15.99,47.97,C1238,"Miami, FL",Miami,FL
+10006,P005,Sneakers,Footwear,2,69.99,139.98,C1239,"Atlanta, GA",Atlanta,GA
+10007,P006,Laptop,Electronics,1,599.99,599.99,C1240,"Seattle, WA",Seattle,WA
+10008,P007,Watch,Accessories,4,39.99,159.96,C1241,"Boston, MA",Boston,MA
+10009,P008,Coffee Maker,Appliances,1,79.99,79.99,C1242,"Denver, CO",Denver,CO
+10010,P009,Hoodie,Apparel,2,29.99,59.98,C1243,"Phoenix, AZ",Phoenix,AZ
+10011,P010,Microwave Oven,Appliances,1,119.99,119.99,C1244,"Dallas, TX",Dallas,TX
+10012,P001,T-shirt,Apparel,4,15.99,63.96,C1245,"Orlando, FL",Orlando,FL
+10013,P003,Headphones,Electronics,2,89.99,179.98,C1246,"San Diego, CA",San Diego,CA
+10014,P005,Sneakers,Footwear,1,69.99,69.99,C1247,"Austin, TX",Austin,TX
+10015,P011,Toaster,Appliances,1,29.99,29.99,C1248,"Portland, OR",Portland,OR
+10016,P007,Watch,Accessories,2,39.99,79.98,C1249,"Charlotte, NC",Charlotte,NC
