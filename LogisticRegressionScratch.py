@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 class LogisticRegressionScratch:
     def __init__(self, learning_rate=0.01, n_iterations=1000):
@@ -31,3 +32,27 @@ class LogisticRegressionScratch:
     def predict(self, X, threshold=0.5):
         probabilities = self.predict_prob(X)
         return np.where(probabilities >= threshold, 1, 0)
+
+# Create a dataset
+data = {
+    'feature1': [1, 2, 3, 4, 5],
+    'feature2': [5, 4, 3, 2, 1],
+    'target': [0, 0, 1, 1, 1]
+}
+df = pd.DataFrame(data)
+
+# Extract features and target
+X = df[['feature1', 'feature2']].values
+y = df['target'].values
+
+# Train the model
+model = LogisticRegressionScratch(learning_rate=0.01, n_iterations=1000)
+model.fit(X, y)
+
+# Make predictions
+predictions = model.predict(X)
+probabilities = model.predict_prob(X)
+
+# Output results
+print("Predicted Classes:", predictions)
+print("Predicted Probabilities:", probabilities)
