@@ -150,7 +150,7 @@ dataset = [
 ]
 
 features = ['Outlook', 'Temperature', 'Humidity']
-target_index = 3
+target_index = 3                                                                                                                                                         
 
 forest = RandomForest(n_trees=5, max_depth=3, sample_ratio=0.8)
 forest.fit(dataset, features, target_index)
